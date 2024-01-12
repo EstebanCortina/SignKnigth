@@ -1,14 +1,14 @@
 {
   "name": "signknigth",
-  "version": "1.0.0",
+  "version": "0.1",
   "type": "module",
-  "description": "",
-  "main": "index.js",
+  "description": "Sign-in & register microservice",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.mjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "github.com/EstebanCortina",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
