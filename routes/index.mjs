@@ -10,4 +10,3 @@ import signInRouter from "./signInRouter.mjs";
 router.use("/sign-in", signInRouter);
 
 export default router;
-
