@@ -19,6 +19,9 @@
     "nodemon": "^3.0.2"
   },
   "imports": {
-    "#routes/*": "./routes/*"
+    "#root/*": "./*",
+    "#routes/*": "./routes/*",
+    "#controllers/*": "./controllers/*",
+    "#config/*": "./config/*"
   }
 }
